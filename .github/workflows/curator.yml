@@ -31,8 +31,8 @@ jobs:
 
       - name: Commit and Push Curation
         run: |
-          git config --global user.name "AI Gig Curator"
-          git config --global user.email "your-actual-github-email@example.com"
+          git config --global user.name "rickytabe"
+          git config --global user.email "rickytabe2@gmail.com"
           git add gigs/
           git commit -m "Automated update: AI curated dev gigs" || exit 0
           git push
